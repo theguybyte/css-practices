@@ -1,0 +1,15 @@
+/*
+If I use width instead max-width if the image is very small then it will show pixelated. 
+With max-width the image never will grow more than its original size. 
+display: block is for remove the "margin" in the bottom of the image.
+The img is a "replaced element" in HTML, and as such, is it treated as a character. 
+Now in the absence of any styles, the image is aligned with the baseline of the other 
+characters on the line. So in other words, there is room for the descender underneath the image.
+https://stackoverflow.com/questions/13111136/why-is-there-a-pesky-little-space-between-img-and-other-elements
+https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image 
+*/
+
+img {
+    max-width: 100%;
+    display: block;
+}

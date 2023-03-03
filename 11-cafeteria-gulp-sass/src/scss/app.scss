@@ -1,0 +1,9 @@
+@use 'base'; //equivalent to @use './base/_index.scss';
+@use 'header';
+@use 'footer';
+@use 'inicio';
+@use 'internas';
+
+
+// The utils always go to the end
+@use 'utilidades';

@@ -1,0 +1,10 @@
+
+/* That start with... */
+a[href^="http"] {
+    color: red;
+}
+
+/* That finish with... */
+a[href$=".com"] {
+    color: red;
+}
